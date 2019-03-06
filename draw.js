@@ -110,7 +110,7 @@ function left() {
 if(canvas.getContext)	        
 {	
 		var ctx=canvas.getContext('2d');
-		ctx.clearCanvas(0,0,canvas.width, canvas.height);
+		ctx.clearRect(0,0,canvas.width, canvas.height);
 		x=x-k;
 		ctx.moveTo(x,y);
   		ctx.lineTo(x+w,y+h);
