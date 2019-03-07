@@ -1,5 +1,5 @@
 # rectangle-animation
-This is a simple javascript code to draw a rectangle.
+This is a simple javascript code to draw a rectangle and to move it by keeping one diagonal fixed.
 
 It contains two files animation.html and draw.js
 
